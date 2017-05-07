@@ -1,5 +1,5 @@
 1. Intel DRI will be disabled as a result of applying the vgaarb patch.
 2. Config is applicable to Intel IGD (Primary) and GTS 450 (Secondary, GF116.rom file is the ROM file dump)
-   Kernel 4.9.24 + acs patch+ vgaarb patch on Ubuntu 16.04.
-3. This configuration works only ONCE, a host system reboot is required to launch the VM for the second time.
+   Kernel 4.10.14 + acs patch+ vgaarb patch on Ubuntu 16.04.
+3. In order to start the VM again, it is necessary to perform a soft shutdown first.
 4. It was necessary to remove the nvidia driver, since it was quirky to disable it before it would snatch the gpu.
