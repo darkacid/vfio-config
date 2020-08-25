@@ -1,4 +1,4 @@
-#Processor i5 3570, Nvidia GTS 450 UEFI GPU passthrough with looking glass support.
+# Processor i5 3570, Nvidia GTS 450 UEFI GPU passthrough with looking glass support.
 #startx looking-glass-client app:renderer=OpenGL -F -- :1 vt8
 #Scroll Lock for capture mode
 1. Linux machine 5.4.58-1-vfio-lts #1 SMP Thu, 20 Aug 2020 22:38:15 +0000 x86_64 GNU/Linux
@@ -9,7 +9,7 @@
 6. Kernel patches (ACS override, vgaarb) enabled by aur/linux-vfio-lts package.
 7. Libvirtd 6.5.0, QEMU 5.0
 
-#Create shared memory file.
+# Create shared memory file.
 /etc/tmpfiles.d/10-looking-glass.conf
     f	/dev/shm/looking-glass	0660	sergey	kvm
 systemd-tmpfiles --create /etc/tmpfiles.d/10-looking-glass.conf

@@ -10,4 +10,4 @@ Configuration:
   Ubuntu 16.04, kernel 4.10.14 from kernel.org with acs and vgaarb patches (patches included in this repo).
 
 
-#Updated 2020 version available in the folder.
+# Updated 2020 version available in the folder.
