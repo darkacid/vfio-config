@@ -1,13 +1,12 @@
 # vfio-config
-My config to virtualize all the things (VFIO GPU Passthrough).
+Relevant config files for VFIO GPU Passthrough.
+/w looking glass support
 
-These are the relevant config files for my setup of VFIO GPU Passthrough.
+Configuration (2021):
+  GTS 450 (host), GTX 1650 (vm)
+  Ryzen 3900x
+  ASUS Prime X570-P
+  Manjaro 21.1.3, kernel 5.10.61-1-MANJARO 
 
-Configuration:
-  Intel HD 2500 (primary), and an NVIDIA GTS 450 (secondary)
-  Intel i5-3570 (non k)
-  MSI B75-E33
-  Ubuntu 16.04, kernel 4.10.14 from kernel.org with acs and vgaarb patches (patches included in this repo).
+# Updated 2020/2021 versions available in the folder.
 
-
-# Updated 2020 version available in the folder.
