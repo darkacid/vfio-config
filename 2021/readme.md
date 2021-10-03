@@ -8,5 +8,7 @@ $ looking-glass-client  -a -p 5999
 3. Shared memory buffer stuff
 4. Make sure spice port is properly selected on lookinglass start
 5. Looking Glass version B4
-6. No special kernel patches. (stock 5.10.61-1-MANJARO)
+6. No special kernel patches. (stock 5.10.68-1-MANJARO)
 7. Dummy plug for GTX 1650
+8. Pulseaudio passthrough (qemu.conf, etc...)
+
